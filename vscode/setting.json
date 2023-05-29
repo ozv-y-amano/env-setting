@@ -1,0 +1,158 @@
+{
+        "workbench.iconTheme": "vscode-icons",
+        "vsicons.dontShowNewVersionMessage": true,
+        "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+        "vim.hlsearch": true,
+        "[javascript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "go.useLanguageServer": true,
+        "intelephense.diagnostics.undefinedTypes": false,
+        "files.watcherExclude": {
+                "**/.git/objects/**": true,
+                "**/.git/subtree-cache/**": true,
+                "**/.rvm/**": true,
+                "**/node_modules/**": true,
+                "**/GoogleDrive/**": true,
+                "**/Dropbox/**": true,
+                "**/Pictures/**": true
+        },
+        "workbench.editorAssociations": {
+                "*.ipynb": "jupyter-notebook"
+        },
+        "prettier.useTabs": true,
+        "vetur.format.defaultFormatterOptions": {
+                "js-beautify-html": {
+                        "wrap_attributes": "force-expand-multiline"
+                },
+                "prettyhtml": {
+                        "printWidth": 100,
+                        "singleQuote": false,
+                        "wrapAttributes": false,
+                        "sortAttributes": false
+                }
+        },
+        "workbench.editor.enablePreview": false,
+        "editor.formatOnPaste": true,
+        "redhat.telemetry.enabled": true,
+        "[c]": {
+                "editor.defaultFormatter": "ms-vscode.cpptools"
+        },
+        "git.autofetch": true,
+        "[css]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[postcss]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "terminal.integrated.defaultProfile.osx": "zsh",
+        "workbench.startupEditor": "none",
+        "json.schemas": [],
+        "yaml.customTags": [
+                "!And",
+                "!And sequence",
+                "!If",
+                "!If sequence",
+                "!Not",
+                "!Not sequence",
+                "!Equals",
+                "!Equals sequence",
+                "!Or",
+                "!Or sequence",
+                "!FindInMap",
+                "!FindInMap sequence",
+                "!Base64",
+                "!Join",
+                "!Join sequence",
+                "!Cidr",
+                "!Ref",
+                "!Sub",
+                "!Sub sequence",
+                "!GetAtt",
+                "!GetAZs",
+                "!ImportValue",
+                "!ImportValue sequence",
+                "!Select",
+                "!Select sequence",
+                "!Split",
+                "!Split sequence"
+        ],
+        "yaml.validate": false,
+        "bracket-pair-colorizer-2.depreciation-notice": false,
+        "intelephense.diagnostics.undefinedClassConstants": false,
+        "intelephense.diagnostics.undefinedConstants": false,
+        "intelephense.diagnostics.undefinedProperties": false,
+        "intelephense.diagnostics.undefinedFunctions": false,
+        "intelephense.diagnostics.undefinedMethods": false,
+        "editor.tabSize": 2,
+        "todohighlight.isEnable": true,
+        "todohighlight.isCaseSensitive": true,
+        "todohighlight.keywords": [
+                "DEBUG:",
+                "REVIEW:",
+                {
+                        "text": "NOTE:",
+                        "color": "#000",
+                        "isWholeLine": false
+                },
+                {
+                        "text": "HACK:",
+                        "color": "#000",
+                        "isWholeLine": false
+                },
+                {
+                        "text": "TODO:",
+                        "color": "red",
+                        "border": "1px solid red",
+                        "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+                        "backgroundColor": "rgba(0,0,0,.2)"
+                        //other styling properties goes here ...
+                }
+        ],
+        "bracketPairColorizer.depreciation-notice": false,
+        "workbench.editor.wrapTabs": true,
+        "workbench.colorTheme": "Darcula",
+        "editor.suggest.showMethods": true,
+        "editor.suggest.preview": true,
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.snippetSuggestions": "top",
+        "files.insertFinalNewline": true,
+        "npm.keybindingsChangedWarningShown": true,
+        "php-cs-fixer.formatHtml": true,
+        "php-cs-fixer.allowRisky": true,
+        "php-cs-fixer.autoFixBySemicolon": true,
+        "php.validate.executablePath": "/usr/local/opt/php@8.1/bin/php",
+        "php-cs-fixer.rules": "@PSR2",
+        "phpcs.standard": "@PSR2",
+        "phpcs.executablePath": "/Users/ozv-y-amano/.composer/vendor/bin/phpcs",
+        "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+        "[php]": {
+                "editor.defaultFormatter": "junstyle.php-cs-fixer"
+        },
+        "php-cs-fixer.lastDownload": 1684997894487,
+        "editor.defaultFormatter": "EditorConfig.EditorConfig",
+        "[typescriptreact]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "editor.formatOnSave": true,
+        "[html]": {
+                "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "php.format.codeStyle": "PSR-2",
+        "php-cs-fixer.onsave": true,
+        "editor.inlayHints.enabled": "off",
+        "workbench.colorCustomizations": {
+                "editor.lineHighlightBackground": "#1073cf2d",
+                "editor.lineHighlightBorder": "#9fced11f"
+        },
+        "editor.wordWrap": "off",
+        "diffEditor.wordWrap": "off",
+        "editor.guides.indentation": false,
+        "editor.guides.bracketPairs": false,
+        "csscomb.preset": "/Users/ozv-y-amano/.vscode/csscomb.json",
+        "csscomb.formatOnSave": true,
+        "[typescript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+}
+
